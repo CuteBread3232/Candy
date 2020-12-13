@@ -1,0 +1,24 @@
+{
+	"type": "OverdriveProjector",
+	"name": "overs",
+	"description": "overs",
+	"size": 1,
+	"range": 80,
+	"phaseRangeBoost": 80,
+	"speedBoost": 10,
+	"speedBoostPhase": 20,
+	"useTime": 500,
+	"consumes": {
+		"items": {
+			"items": [ { "amount": 1, "item": "copper" } ],
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 1 },
+		{ "item": "lead", "amount": 1 }
+	],
+	"category": "effect",
+	"research": "overdrive-projector"
+}
